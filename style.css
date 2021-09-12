@@ -1,0 +1,113 @@
+:root {
+    --backgroundColor: ;
+    --textColor: ;
+    --linkColor: ;
+    --buttonColor: ;
+    --buttonFade: ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.3em;
+    box-sizing: border-box;
+    scroll-behavior: unset;
+}
+
+body {
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+}
+
+h1 {
+    font-size: 3.4rem;
+    line-height: 1em;
+}
+#credits {
+    font-size: 1rem;
+    font-weight: normal;
+}
+#flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90vw;
+    width: 1000px;
+    margin: 30px auto;
+}
+button {
+    padding: 5px 10px 5px 10px;
+    color: var(--textColor);
+    background-color: var(--buttonColor);
+}
+button:hover {
+    background-color: var(--buttonFade);
+}
+#colorToggle {
+    margin-top: 100px;
+}
+#textArea {
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+    width: inherit;
+    min-height: 100px;
+    resize: vertical;
+    padding: 10px;
+    max-width: inherit;
+}
+
+p {
+    padding: 10px;
+    white-space: pre-wrap;
+    width: inherit;
+    text-align: left;
+    max-width: inherit;
+}
+
+.flexItem {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--backgroundColor);
+    box-shadow: 0 10px 10px 5px var(--textColor);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+a {
+    line-height: 3em;
+    text-align: center;
+    color: var(--linkColor);
+    font-size: 1.0rem;
+}
+a:visited {
+    color: var(--linkColor);
+}
+#infoBox {
+    left: 50%;
+    transform: translate(-50%);
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--backgroundColor);
+    opacity: 94%;
+    display: none;
+    height: 100vh;
+}
+#infoTitle {
+    margin-top: 160px;
+    font-size: 2rem;
+    text-align: center;
+}
+#infoText {
+    max-width: 70%;
+    width: 700px;
+    text-align: center;
+    font-size: 1.4rem;
+}
