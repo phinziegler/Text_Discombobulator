@@ -1,5 +1,5 @@
 # Text Discombobulator
-[Click Here!](https://phinziegler.github.io/text_discombobulator/) <br>
+[Click Here!](https://phinziegler.github.io/Text_Discombobulator/) <br>
 This was the first thing I made to learn JavaScript. I learned in elementary school that if you take a word and change all the letters around, leaving only the first and last letter in the correct location, the text is still perfectly readable. 
 
 ## But Why Bother?
